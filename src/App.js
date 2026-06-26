@@ -8,8 +8,9 @@ import {
 } from 'lucide-react';
 
 // API Configuration
-const apiKey = "4db4ada7021413621253fc07e5448bc9";
-const geminiApiKey = "AQ.Ab8RN6LAy2CMM7_1rGKahx-KuG0qZiKfpe3CBR0OmsrzO37gxw"; // Provided by environment
+
+const apiKey = process.env.REACT_APP_WEATHER_API_KEY;
+const geminiApikey = process.env.REACT_APP_GEMINI_API_KEY;
 
 /**
  * Dynamic Wind Compass Component
