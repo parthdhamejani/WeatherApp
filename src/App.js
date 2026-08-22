@@ -10,7 +10,7 @@ import {
 // API Configuration
 
 const apiKey = process.env.REACT_APP_WEATHER_API_KEY;
-const geminiApikey = process.env.REACT_APP_GEMINI_API_KEY;
+const geminiApiKey = process.env.REACT_APP_GEMINI_API_KEY;
 
 /**
  * Dynamic Wind Compass Component
